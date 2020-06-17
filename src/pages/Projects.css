@@ -1,0 +1,71 @@
+/*body*/
+body {
+    background-color: rgb(255, 255, 110);
+}
+
+/*navbar*/
+.mynavlist {
+    justify-content: flex-end;
+}
+
+.navbar-brand:hover {
+    color: black;
+    font-family: 'Space Mono', monospace;
+    color: black;
+    font-family: 'Space Mono', monospace;
+    box-shadow:
+        1px 1px #53a7ea,
+        2px 2px #53a7ea,
+        3px 3px #53a7ea;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+
+
+}
+
+.nav-link {
+    color: black;
+    font-family: 'Space Mono', monospace;
+
+}
+
+.mynavs:hover {
+    box-shadow:
+        1px 1px #53a7ea,
+        2px 2px #53a7ea,
+        3px 3px #53a7ea;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+
+nav {
+    background-color: yellow;
+}
+
+/*main section*/
+main {
+    font-family: 'Space Mono', monospace;
+}
+
+.title h3 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/*cards*/
+.row {
+    justify-content: space-evenly;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: yellow;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,76 @@
+/*body*/
+body {
+    background-color: rgb(255, 255, 110);
+    height: 70em;
+}
+
+/*navbar*/
+.mynavlist {
+    justify-content: flex-end;
+}
+
+.navbar-brand:hover {
+    color: black;
+    font-family: 'Space Mono', monospace;
+    box-shadow:
+        1px 1px #53a7ea,
+        2px 2px #53a7ea,
+        3px 3px #53a7ea;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+
+}
+
+.nav-link {
+    color: black;
+    font-family: 'Space Mono', monospace;
+}
+
+.mynavs:hover {
+    box-shadow:
+        1px 1px #53a7ea,
+        2px 2px #53a7ea,
+        3px 3px #53a7ea;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+
+nav {
+    background-color: yellow;
+}
+
+
+/*main*/
+.section1 {
+    font-family: 'Space Mono', monospace;
+    margin-top: 7em;
+}
+
+.home-items {
+    list-style-type: none;
+}
+
+.home-links {
+    font-size: 3em;
+    text-align: center;
+    line-height: 1em;
+    opacity: 0.5;
+}
+
+.home-links:hover {
+    color: black;
+    opacity: 1;
+    /* transition: 0.3s; */
+    -webkit-transform: rotateZ(-15deg);
+    -ms-transform: rotateZ(-15deg);
+    transform: rotateZ(-15deg);
+}
+
+/* .rotate:hover
+{
+       
+} */
+/*scroll button*/
+.scroll {
+    margin: auto;
+}
